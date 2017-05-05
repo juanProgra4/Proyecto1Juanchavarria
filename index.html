@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en"> <!--cambio de idioma a español-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> <!--funciona para que se pueda visualizar en dispositivos moviles-->
+	<title>Ciclo Adventure</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">	
+</head>
+<body background="img/fondoPrincipal.jpg">
+	<header>
+	    <nav class="navbar navbar-inverse navbar-static-top" role="navigation"> <!--menu de navegacion-->
+	    	<div class="container">
+	    		<div class="navbar-header">
+	    		   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigacion-fm">  
+	    		        <span class="sr-only"> Desplegar / Ocultar Menu</span>
+	    		        <span class="icon-bar"> </span> 
+	    		        <span class="icon-bar"> </span>
+	    		        <span class="icon-bar"> </span>
+	    		   </button>
+	    		   <a href="#" class="navbar-brand">Menu Principal</a>
+	    		</div>
+	    		 <!--Aqui inicia el menu-->
+	    		<div class="collapse navbar-collapse" id="navigacion-fm">
+	    		    <ul class="nav navbar-nav">
+	    		         <li class="active"> <a href="#">Inicio</a></li> 
+	    		         <li class="dropdowm"> 
+	    		              <a href="#" class="dropdowm-toggle" data-toggle="dropdowm" role="button">Menu <span class="caret"></span>
+	    		              </a>
+	    		              <ul class="dropdowm-menu" role="menu">
+	    		         	     <li><a href="#">MountanBike</a></li>
+	    		         	     <li><a href="#">Racing</a></li>
+	    		         	     <li><a href="#">Adventure</a></li>
+	    		         	     <li><a href="#">Kids</a></li>
+	    		            </ul>
+	    		         </li>
+	    		         <li> <a href="#">Registrar</a></li>
+	    		         <li> <a href="#">Revista</a></li>
+	    		         <li> <a href="#">Contacto</a></li>
+	    		    </ul>
+	    		    <form action="" class="navbar-form navbar" role="search">
+	    		        <div class="form-group">
+	    		        	<input type="text" class="form-control" placeholder="Buscar">
+	    		        </div>
+	    		        <button type="submit" class="btn btn-primary">
+	    		        	<span class="glyphicon glyphicon-search"> </span>
+	    		        </button>
+	    		     </form>
+	    		 </div>
+	    	</div>
+	    </nav>
+	</header>
+<!-- aqui va el jumbotron-->
+    <section class="main container"> 
+      <div class="row">
+      <section class="posts col-md-9">
+      	<div class="miga-de-pan">
+      		<ol class="breadcrumb">
+      		    <li><a href="#"> Inicio </a></li>
+      		    <li><a href="#"> Categorias </a></li>
+      		    <li class="active">kids</li>
+      		</ol>
+      	</div>
+      		<article class="post clearfix">
+      			<a href="#" class="thumb pull-left">
+      				<img src="img/paisajeBikeMTB.jpg" alt="">
+      			</a>
+      			<h2 class="post-title">   
+      			   <a href="#">Si sientes que no puedes parar, es porque eres un apacionado a este hermoso deporte</a>
+      			 </h2>
+      			 <p><span class="post-fecha">03 de Mayo del 2017</span> por <span class="post-autor"><a href="#">Juan Chavarria Arroyo</a>      			 	
+      			 </span>
+      			 </p>
+      		</article>
+
+      		<nav>
+      			<div class="center- block">
+      				<ul class="pagination">
+      					<li class="disabled"><a href="#">&laquo;<span class="sr-only">Anterior</span></a></li>
+      					<li class="active"><a href="#">1</a> </li>
+      					<li><a href="#">2</a></li>
+      					<li><a href="#">3</a></li>
+      					<li><a href="#">4</a></li>
+      					<li><a href="#">5</a></li>
+      				    <li><a href="#">&raquo;<span class="sr-only">Siguiente</span></a></li>
+      				</ul>
+      			</div>
+      		</nav>
+      	</section>
+      	<aside class="col-md-3 hidden-xs hidden-sm">
+	    	<h4>Categorias</h4>
+	    	<div class="list-group">
+	    		<a href="#" class="list-group-item active">Kids</a>
+	    		<a href="#" class="list-group-item">MTB</a>
+	    		<a href="#" class="list-group-item">Clasic</a>
+	    		<a href="#" class="list-group-item">MountanBike</a>
+	    	</div>
+	    	<h4>Articulos recientes</h4>
+	    	<a href="#" class="list-group-item">
+	    		<h4 class="list-group-item-heading">Compartiendo una sola pasión</h4>
+	    		<p class="list-group-item-text">El lugar donde encontraras todo para disfrutar mejor este mismo sentimiento</p>
+	    	</a>
+        </aside>
+      </div>
+      </section>
+      </div>
+    </section>
+    <section class="jumbotron">
+    	<div  class="container"></div>
+    	    <h1  class=".titulo">  Ciclo Adventure</h1>
+    	    <p> Compartiendo una sola pasión</p>
+    </section>
+
+    <footer></footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

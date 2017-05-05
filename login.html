@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Inicie Sesion</title>
+    </head>
+
+    <body background="img/fondo.jpg">
+        <center>
+            <form>
+                <SCRIPT  language=JavaScript> 
+                    function go(){
+                        if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+                           document.form.submit(); 
+                        }    
+                        else{ 
+                             alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+                        } 
+                    } 
+                </SCRIPT> 
+                <form name=form action="TU_PAGINA_WEB.HTML">
+                    <P>Usuario:    <INPUT type=text name=login placeholder="example@email.com"></INPUT></P>
+                    <P>Contraseña: <INPUT type=password name=password  placeholder="contraseña"></INPUT></P>
+                    <th scope="row"><input type="reset" name="Borrar" value="Reset" class="boton" /></th>  
+                    <INPUT onclick=go() type=button value=Acceder>
+                    <INPUT onclick=olvide () type=button value=Olvide_Contraseña>
+                </form> 
+                </form>
+           </center>
+    </body>
+</html>
